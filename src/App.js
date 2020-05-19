@@ -6,6 +6,7 @@ import parse from "html-react-parser";
 import { formatSeasons } from "./utils/formatSeasons";
 
 import Episodes from "./components/Episodes";
+import fetchShow from "./api/fetchShow"
 import "./styles.css";
 
 export default function App() {
